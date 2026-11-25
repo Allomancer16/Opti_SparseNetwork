@@ -1,0 +1,25 @@
+# Raw & processed datasets (too large for Git; regenerated locally)
+data/
+*.zip
+*.tar.gz
+
+# Generated NumPy arrays / model matrices
+*.npy
+*.npz
+
+# Python caches & test artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS, editor, and LibreOffice lock files
+.~lock.*
+.DS_Store
+.vscode/
+.idea/
